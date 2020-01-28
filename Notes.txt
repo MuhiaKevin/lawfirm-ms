@@ -1,0 +1,51 @@
+FEATURES REQUESTED
+-----------------
+have a non refundable deposit
+Payement module
+place to check court dates 
+allow user to send documents to each other
+Show services that will be offered by lawyer
+
+
+
+Users
+-------
+
+1. Admin -> adds & removes users
+		- > edit lawyer details
+		-> view all users
+		-> add contracts from businesses
+		-> add and edit court dates
+
+2. Lawyer 
+	-> what lawyers will do:
+		draft contracts for business
+		View Court dates
+		View Appointments
+		create appointments
+		send and receive files from client
+
+3. Client
+		-> send affidavit to lawyer
+		-> have make a non refundable deposit 
+		-> make payment to lawyer
+		-> allow client to check court date
+		-> Send receive files from lawyer
+
+	
+
+---------------------	
+System Functionality
+--------------------
+1. Allow lawyer to manage youour client and case records
+2. maintain billing and bookeeping 
+3. Keep track of appointments and schedules
+4. remind you about the deadlines
+
+Time tracking/billing
+
+Client intake
+
+File management
+
+Documentation assembly
