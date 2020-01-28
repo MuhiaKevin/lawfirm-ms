@@ -25,7 +25,7 @@ echo "<script>window.location.href ='manage-doctors.php'</script>";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Admin | Add Doctor</title>
+		<title>Admin | Add Lawyer</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -85,14 +85,14 @@ error:function (){}
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Admin | Add Doctor</h1>
+									<h1 class="mainTitle">Admin | Add Lawyer</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
 										<span>Admin</span>
 									</li>
 									<li class="active">
-										<span>Add Doctor</span>
+										<span>Add Lawyer</span>
 									</li>
 								</ol>
 							</div>
@@ -107,14 +107,14 @@ error:function (){}
 										<div class="col-lg-8 col-md-12">
 											<div class="panel panel-white">
 												<div class="panel-heading">
-													<h5 class="panel-title">Add Doctor</h5>
+													<h5 class="panel-title">Add Lawyer</h5>
 												</div>
 												<div class="panel-body">
 									
 													<form role="form" name="adddoc" method="post" onSubmit="return valid();">
 														<div class="form-group">
 															<label for="DoctorSpecialization">
-																Doctor Specialization
+															Lawyer Specialization
 															</label>
 							<select name="Doctorspecialization" class="form-control" required="true">
 																<option value="">Select Specialization</option>
@@ -132,37 +132,37 @@ while($row=mysqli_fetch_array($ret))
 
 <div class="form-group">
 															<label for="doctorname">
-																 Doctor Name
+															Lawyer Name
 															</label>
-					<input type="text" name="docname" class="form-control"  placeholder="Enter Doctor Name" required="true">
+					<input type="text" name="docname" class="form-control"  placeholder="Enter Lawyer Name" required="true">
 														</div>
 
 
 <div class="form-group">
 															<label for="address">
-																 Doctor Clinic Address
+															Lawyer Office Address
 															</label>
-					<textarea name="clinicaddress" class="form-control"  placeholder="Enter Doctor Clinic Address" required="true"></textarea>
+					<textarea name="clinicaddress" class="form-control"  placeholder="Enter Lawyer Clinic Address" required="true"></textarea>
 														</div>
 <div class="form-group">
 															<label for="fess">
-																 Doctor Consultancy Fees
+															Lawyer Consultancy Fees
 															</label>
-					<input type="text" name="docfees" class="form-control"  placeholder="Enter Doctor Consultancy Fees" required="true">
+					<input type="text" name="docfees" class="form-control"  placeholder="Enter Lawyer Consultancy Fees" required="true">
 														</div>
 	
 <div class="form-group">
 									<label for="fess">
-																 Doctor Contact no
+									Lawyer Contact no
 															</label>
-					<input type="text" name="doccontact" class="form-control"  placeholder="Enter Doctor Contact no" required="true">
+					<input type="text" name="doccontact" class="form-control"  placeholder="Enter Lawyer Contact no" required="true">
 														</div>
 
 <div class="form-group">
 									<label for="fess">
-																 Doctor Email
+									Lawyer Email
 															</label>
-<input type="email" id="docemail" name="docemail" class="form-control"  placeholder="Enter Doctor Email id" required="true" onBlur="checkemailAvailability()">
+<input type="email" id="docemail" name="docemail" class="form-control"  placeholder="Enter Lawyer Email id" required="true" onBlur="checkemailAvailability()">
 <span id="email-availability-status"></span>
 </div>
 

@@ -9,7 +9,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Doctor  | Dashboard</title>
+		<title>Lawyer  | Dashboard</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -42,11 +42,11 @@ check_login();
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Doctor | Dashboard</h1>
+									<h1 class="mainTitle">Lawyer | Dashboard</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>User</span>
+										<span>Lawyer</span>
 									</li>
 									<li class="active">
 										<span>Dashboard</span>
@@ -99,11 +99,7 @@ check_login();
 						
 					</div>
 				</div>
-			</div>
-			<!-- start: FOOTER -->
-	<?php include('include/footer.php');?>
-			<!-- end: FOOTER -->
-		
+			</div>		
 			<!-- start: SETTINGS -->
 	<?php include('include/setting.php');?>
 			

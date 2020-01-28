@@ -41,7 +41,7 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Patients </span><i class="icon-arrow"></i>
+											<span class="title"> Clients </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -49,12 +49,12 @@
 									
 									<li>
 										<a href="add-patient.php">
-											<span class="title"> Add Patient</span>
+											<span class="title"> Add Client</span>
 										</a>
 									</li>
 									<li>
 										<a href="manage-patient.php">
-											<span class="title"> Manage Patient </span>
+											<span class="title"> Manage Clients </span>
 										</a>
 									</li>
 									

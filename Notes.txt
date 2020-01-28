@@ -23,10 +23,10 @@ Users
 		View Court dates
 		View Appointments
 		create appointments
-		send and receive files from client
+		(upload)send and receive files eg affidavit from client
 
 3. Client
-		-> send affidavit to lawyer
+		-> login or signup
 		-> have make a non refundable deposit 
 		-> make payment to lawyer
 		-> allow client to check court date

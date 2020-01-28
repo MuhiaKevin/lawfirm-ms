@@ -8,7 +8,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Patients | Appointment History</title>
+		<title>Clients | Appointment History</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -39,11 +39,11 @@ check_login();
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Patients  | Appointment History</h1>
+									<h1 class="mainTitle">Clients  | Appointment History</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>Patients </span>
+										<span>Clients </span>
 									</li>
 									<li class="active">
 										<span>Appointment History</span>
@@ -65,10 +65,10 @@ check_login();
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th class="hidden-xs">Doctor Name</th>
-												<th>Patient Name</th>
+												<th class="hidden-xs">Lawyer Name</th>
+												<th>Clients Name</th>
 												<th>Specialization</th>
-												<th>Consultancy Fee</th>
+												<th>Deposit Fee</th>
 												<th>Appointment Date / Time </th>
 												<th>Appointment Creation Date  </th>
 												<th>Current Status</th>
@@ -167,9 +167,6 @@ $cnt=$cnt+1;
 					</div>
 				</div>
 			</div>
-			<!-- start: FOOTER -->
-	<?php include('include/footer.php');?>
-			<!-- end: FOOTER -->
 		
 			<!-- start: SETTINGS -->
 	<?php include('include/setting.php');?>

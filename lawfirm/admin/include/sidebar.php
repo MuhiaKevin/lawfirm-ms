@@ -27,24 +27,24 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Doctors </span><i class="icon-arrow"></i>
+											<span class="title"> Lawyers </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
 								<ul class="sub-menu">
 									<li>
 										<a href="doctor-specilization.php">
-											<span class="title"> Doctor Specialization </span>
+											<span class="title"> Lawyer Specialization </span>
 										</a>
 									</li>
 									<li>
 										<a href="add-doctor.php">
-											<span class="title"> Add Doctor</span>
+											<span class="title"> Add Lawyer</span>
 										</a>
 									</li>
 									<li>
 										<a href="Manage-doctors.php">
-											<span class="title"> Manage Doctors </span>
+											<span class="title"> Manage Lawyers </span>
 										</a>
 									</li>
 									
@@ -58,7 +58,7 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Users </span><i class="icon-arrow"></i>
+											<span class="title"> Clients </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -66,13 +66,13 @@
 									
 									<li>
 										<a href="manage-users.php">
-											<span class="title"> Manage Users </span>
+											<span class="title"> Manage Clients </span>
 										</a>
 									</li>
 									
 								</ul>
 								</li>
-								<li>
+								<!-- <li>
 								<a href="javascript:void(0)">
 									<div class="item-content">
 										<div class="item-media">
@@ -92,7 +92,7 @@
 									</li>
 									
 								</ul>
-								</li>	
+								</li>	 -->
 
 <li>
 								<a href="appointment-history.php">
@@ -108,7 +108,7 @@
 							</li>
 
 
-
+<!-- 
 				<li>
 								<a href="javascript:void(0)">
 									<div class="item-content">
@@ -135,7 +135,7 @@
 									</li>
 									
 								</ul>
-								</li>
+								</li> -->
 
 
 
@@ -146,7 +146,7 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Doctor Session Logs </span>
+											<span class="title"> Lawyer Session Logs </span>
 										</div>
 									</div>
 								</a>
@@ -161,13 +161,13 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> User Session Logs </span>
+											<span class="title"> Client Session Logs </span>
 										</div>
 									</div>
 								</a>
 							</li>						
 				<li>
-								<a href="javascript:void(0)">
+								<!-- <a href="javascript:void(0)">
 									<div class="item-content">
 										<div class="item-media">
 											<i class="ti-files"></i>
@@ -188,14 +188,14 @@
 									
 									
 								</ul>
-								<li>
+								<li> -->
 								<a href="patient-search.php">
 									<div class="item-content">
 										<div class="item-media">
 											<i class="ti-search"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Patient Search </span>
+											<span class="title"> Client Search </span>
 										</div>
 									</div>
 								</a>

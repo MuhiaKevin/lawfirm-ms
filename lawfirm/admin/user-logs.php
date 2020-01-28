@@ -8,7 +8,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Admin | User Session Logs</title>
+		<title>Admin | Client Session Logs</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -39,14 +39,14 @@ check_login();
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Admin  | User Session Logs</h1>
+									<h1 class="mainTitle">Admin  | Client Session Logs</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
 										<span>Admin </span>
 									</li>
 									<li class="active">
-										<span>User Session Logs</span>
+										<span>Client Session Logs</span>
 									</li>
 								</ol>
 							</div>
@@ -65,9 +65,9 @@ check_login();
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th class="hidden-xs">User id</th>
+												<th class="hidden-xs">Client id</th>
 												<th>Username</th>
-												<th>User IP</th>
+												<th>Client IP</th>
 												<th>Login time</th>
 												<th>Logout Time </th>
 												<th> Status </th>
