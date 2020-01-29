@@ -21,7 +21,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="../manage-court-dates.php">
+					<a href="manage-court-dates.php">
 						<div class="item-content">
 							<div class="item-media">
 								<i class="ti-home"></i>
