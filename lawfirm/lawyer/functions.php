@@ -10,9 +10,6 @@ if (isset($_POST['func']) && !empty($_POST['func'])) {
 		case 'getEvents':
 			getEvents($_POST['date']);
 			break;
-		case 'addEvent':
-			addEvent($_POST['date'], $_POST['title']);
-			break;
 		default:
 			break;
 	}
@@ -39,12 +36,7 @@ function getCalender($year = '', $month = '')
 			<a href="javascript:void(0);" onclick="getCalendar('calendar_div','<?php echo date("Y", strtotime($date . ' + 1 Month')); ?>','<?php echo date("m", strtotime($date . ' + 1 Month')); ?>');">&gt;&gt;</a>
 		</h2>
 		<div id="event_list" class="none"></div>
-		<div id="event_add" class="none">
-			<p>Add Event on <span id="eventDateView"></span></p>
-			<p><b>Event Title: </b><input type="text" id="eventTitle" value="" /></p>
-			<input type="hidden" id="eventDate" value="" />
-			<input type="button" id="addEventBtn" value="Add" />
-		</div>
+		
 		<div id="calender_section_top">
 			<ul>
 				<li>Sun</li>
@@ -90,9 +82,7 @@ function getCalender($year = '', $month = '')
 						echo '<div id="date_popup_' . $currentDate . '" class="date_popup_wrap none">';
 						echo '<div class="date_window">';
 						echo '<div class="popup_event">Events (' . $eventNum . ')</div>';
-						echo ($eventNum > 0)?'<a href="javascript:;" onclick="getEvents(\''.$currentDate.'\');">view events</a><br/>':'';
-                        //For Add Event
-                        echo '<a href="javascript:;" onclick="addEvent(\''.$currentDate.'\');">add event</a>';
+						echo ($eventNum > 0)?'<a href="javascript:;" onclick="getEvents(\''.$currentDate.'\');">View Events</a><br/>':'';
 						
 						echo '</div></div>';
 
@@ -254,20 +244,5 @@ function getEvents($date = '')
 	}
 	echo $eventListHTML;
 }
-/*
- * Add event to date
- */
-function addEvent($date, $title)
-{
-	//Include db configuration file
-	include 'dbConfig.php';
-	$currentDate = date("Y-m-d H:i:s");
-	//Insert the event data into database
-	$insert = $db->query("INSERT INTO events (title,date,created,modified) VALUES ('" . $title . "','" . $date . "','" . $currentDate . "','" . $currentDate . "')");
-	if ($insert) {
-		echo 'ok';
-	} else {
-		echo 'err';
-	}
-}
+
 ?>

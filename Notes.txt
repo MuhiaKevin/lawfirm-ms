@@ -16,6 +16,9 @@ Users
 		-> view all users
 		-> add contracts from businesses
 		-> add and edit court dates
+			-> Court name 
+			-> Case Number : 	Criminal Appeal 99 of 2012
+			-> judge
 
 2. Lawyer 
 	-> what lawyers will do:
