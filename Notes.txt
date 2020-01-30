@@ -16,6 +16,9 @@ Users
 		-> view all users
 		-> add contracts from businesses
 		-> add and edit court dates
+			-> Court name 
+			-> Case Number : 	Criminal Appeal 99 of 2012
+			-> judge
 
 2. Lawyer 
 	-> what lawyers will do:
@@ -33,9 +36,15 @@ Users
 
 	
 ISSUES
+<<<<<<< HEAD
 ---------
 1. Hide url / modified files
  
+=======
+-------
+1. View Med history client section change
+
+>>>>>>> 77a5a562abf50dc23fe299f756f340acb08b7bd8
 ---------------------	
 System Functionality
 --------------------

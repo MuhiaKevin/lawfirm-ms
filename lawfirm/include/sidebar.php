@@ -1,38 +1,76 @@
 <div class="sidebar app-aside" id="sidebar">
-				<div class="sidebar-container perfect-scrollbar">
+	<div class="sidebar-container perfect-scrollbar">
 
-<nav>
-						
-						<!-- start: MAIN NAVIGATION MENU -->
-						<div class="navbar-title">
-							<span>Main Navigation</span>
+		<nav>
+
+			<!-- start: MAIN NAVIGATION MENU -->
+			<div class="navbar-title">
+				<span>Main Navigation</span>
+			</div>
+			<ul class="main-navigation-menu">
+				<li>
+					<a href="dashboard.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-home"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Dashboard </span>
+							</div>
 						</div>
-						<ul class="main-navigation-menu">
-							<li>
-								<a href="dashboard.php">
-									<div class="item-content">
-										<div class="item-media">
-											<i class="ti-home"></i>
-										</div>
-										<div class="item-inner">
-											<span class="title"> Dashboard </span>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="book-appointment.php">
-									<div class="item-content">
-										<div class="item-media">
-											<i class="ti-pencil-alt"></i>
-										</div>
-										<div class="item-inner">
-											<span class="title"> Book Appointment </span>
-										</div>
-									</div>
-								</a>
-							</li>
+					</a>
+				</li>
+				<li>
+					<a href="view-court-dates.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-home"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title">View Court Schedule </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="book-appointment.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-pencil-alt"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Book Appointment </span>
+							</div>
+						</div>
+					</a>
+				</li>
 
+				<li>
+					<a href="appointment-history.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-list"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Appointment History </span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="manage-medhistory.php">
+						<div class="item-content">
+							<div class="item-media">
+								<i class="ti-list"></i>
+							</div>
+							<div class="item-inner">
+								<span class="title"> Consulancy History </span>
+							</div>
+						</div>
+					</a>
+				</li>
+
+<<<<<<< HEAD
 							<li>
 								<a href="appointment-history.php">
 									<div class="item-content">
@@ -46,10 +84,11 @@
 								</a>
 							</li>
 
+=======
+			</ul>
+			<!-- end: CORE FEATURES -->
+>>>>>>> 77a5a562abf50dc23fe299f756f340acb08b7bd8
 
-						</ul>
-						<!-- end: CORE FEATURES -->
-						
-					</nav>
-					</div>
-			</div>
+		</nav>
+	</div>
+</div>
