@@ -84,7 +84,6 @@
 					</a>
 				</li>
 
-<<<<<<< HEAD
 							<li>
 								<a href="appointment-history.php">
 									<div class="item-content">
@@ -117,7 +116,7 @@
 									
 								</ul>
 								</li>
-<li>
+							<li>
 								<a href="search.php">
 									<div class="item-content">
 										<div class="item-media">
@@ -129,10 +128,6 @@
 									</div>
 								</a>
 							</li>
-=======
-			</ul>
-			<!-- end: CORE FEATURES -->
->>>>>>> 77a5a562abf50dc23fe299f756f340acb08b7bd8
 
 		</nav>
 	</div>

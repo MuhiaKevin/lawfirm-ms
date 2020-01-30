@@ -77,8 +77,6 @@ if (isset($_POST['submit'])) {
 						</div>
 						<div class="form-actions">
 
-<<<<<<< HEAD
-=======
 							<button type="submit" class="btn btn-primary pull-right" name="submit">
 								Login <i class="fa fa-arrow-circle-right"></i>
 							</button>
@@ -86,11 +84,6 @@ if (isset($_POST['submit'])) {
 
 					</fieldset>
 				</form>
-
-				<div class="copyright">
-					&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
->>>>>>> 77a5a562abf50dc23fe299f756f340acb08b7bd8
-				</div>
 
 			</div>
 
