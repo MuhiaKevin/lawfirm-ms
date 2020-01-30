@@ -26,14 +26,16 @@ Users
 		(upload)send and receive files eg affidavit from client
 
 3. Client
-		-> login or signup
 		-> have make a non refundable deposit 
 		-> make payment to lawyer
 		-> allow client to check court date
 		-> Send receive files from lawyer
 
 	
-
+ISSUES
+---------
+1. Hide url / modified files
+ 
 ---------------------	
 System Functionality
 --------------------

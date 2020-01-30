@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Doctor | Manage Patients</title>
+		<title>Lawyer | Manage Clients</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -60,14 +60,14 @@ if(isset($_POST['submit']))
 <section id="page-title">
 <div class="row">
 <div class="col-sm-8">
-<h1 class="mainTitle">Doctor | Manage Patients</h1>
+<h1 class="mainTitle">Lawyer | Manage Client</h1>
 </div>
 <ol class="breadcrumb">
 <li>
-<span>Doctor</span>
+<span>Lawyer</span>
 </li>
 <li class="active">
-<span>Manage Patients</span>
+<span>Manage Clients</span>
 </li>
 </ol>
 </div>
@@ -75,7 +75,7 @@ if(isset($_POST['submit']))
 <div class="container-fluid container-fullw bg-white">
 <div class="row">
 <div class="col-md-12">
-<h5 class="over-title margin-bottom-15">Manage <span class="text-bold">Patients</span></h5>
+<h5 class="over-title margin-bottom-15">Manage <span class="text-bold">Clients</span></h5>
 <?php
                                $vid=$_GET['viewid'];
                                $ret=mysqli_query($con,"select * from tblpatient where ID='$vid'");
@@ -85,31 +85,30 @@ while ($row=mysqli_fetch_array($ret)) {
 <table border="1" class="table table-bordered">
  <tr align="center">
 <td colspan="4" style="font-size:20px;color:blue">
- Patient Details</td></tr>
+ Client Details</td></tr>
 
     <tr>
-    <th scope>Patient Name</th>
+    <th scope>Client Name</th>
     <td><?php  echo $row['PatientName'];?></td>
-    <th scope>Patient Email</th>
+    <th scope>Client Email</th>
     <td><?php  echo $row['PatientEmail'];?></td>
   </tr>
   <tr>
-    <th scope>Patient Mobile Number</th>
+    <th scope>Client Mobile Number</th>
     <td><?php  echo $row['PatientContno'];?></td>
-    <th>Patient Address</th>
+    <th>Client Address</th>
     <td><?php  echo $row['PatientAdd'];?></td>
   </tr>
     <tr>
-    <th>Patient Gender</th>
+    <th>Client Gender</th>
     <td><?php  echo $row['PatientGender'];?></td>
-    <th>Patient Age</th>
+    <th>Client Age</th>
     <td><?php  echo $row['PatientAge'];?></td>
   </tr>
   <tr>
     
-    <th>Patient Medical History(if any)</th>
-    <td><?php  echo $row['PatientMedhis'];?></td>
-     <th>Patient Reg Date</th>
+    
+     <th>Client Reg Date</th>
     <td><?php  echo $row['CreationDate'];?></td>
   </tr>
  
@@ -122,36 +121,10 @@ $ret=mysqli_query($con,"select * from tblmedicalhistory  where PatientID='$vid'"
 
 
  ?>
-<table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
-  <tr align="center">
-   <th colspan="8" >Medical History</th> 
-  </tr>
-  <tr>
-    <th>#</th>
-<th>Blood Pressure</th>
-<th>Weight</th>
-<th>Blood Sugar</th>
-<th>Body Temprature</th>
-<th>Medical Prescription</th>
-<th>Visit Date</th>
-</tr>
-<?php  
-while ($row=mysqli_fetch_array($ret)) { 
-  ?>
-<tr>
-  <td><?php echo $cnt;?></td>
- <td><?php  echo $row['BloodPressure'];?></td>
- <td><?php  echo $row['Weight'];?></td>
- <td><?php  echo $row['BloodSugar'];?></td> 
-  <td><?php  echo $row['Temperature'];?></td>
-  <td><?php  echo $row['MedicalPres'];?></td>
-  <td><?php  echo $row['CreationDate'];?></td> 
-</tr>
-<?php $cnt=$cnt+1;} ?>
-</table>
+
 
 <p align="center">                            
- <button class="btn btn-primary waves-effect waves-light w-lg" data-toggle="modal" data-target="#myModal">Add Medical History</button></p>  
+ <!-- <button class="btn btn-primary waves-effect waves-light w-lg" data-toggle="modal" data-target="#myModal">Add Medical History</button></p>   -->
 
 <?php  ?>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

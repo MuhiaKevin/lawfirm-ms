@@ -46,12 +46,6 @@
 									</div>
 								</a>
 								<ul class="sub-menu">
-									
-									<li>
-										<a href="add-patient.php">
-											<span class="title"> Add Client</span>
-										</a>
-									</li>
 									<li>
 										<a href="manage-patient.php">
 											<span class="title"> Manage Clients </span>

@@ -119,7 +119,7 @@ function getfee(val) {
 
 <div class="form-group">
 															<label for="DoctorSpecialization">
-																Doctor Specialization
+																Lawyer Specialization
 															</label>
 							<select name="Doctorspecialization" class="form-control" onChange="getdoctor(this.value);" required="required">
 																<option value="">Select Specialization</option>
@@ -140,10 +140,10 @@ while($row=mysqli_fetch_array($ret))
 
 														<div class="form-group">
 															<label for="doctor">
-																Doctors
+																Lawyers
 															</label>
 						<select name="doctor" class="form-control" id="doctor" onChange="getfee(this.value);" required="required">
-						<option value="">Select Doctor</option>
+						<option value="">Select Lawyer</option>
 						</select>
 														</div>
 

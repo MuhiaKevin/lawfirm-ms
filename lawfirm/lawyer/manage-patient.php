@@ -62,7 +62,7 @@ check_login();
 <th>Client Contact Number</th>
 <th>Client Gender </th>
 <th>Creation Date </th>
-<th>Updation Date </th>
+
 <th>Action</th>
 </tr>
 </thead>
@@ -80,7 +80,7 @@ while($row=mysqli_fetch_array($sql))
 <td><?php echo $row['PatientContno'];?></td>
 <td><?php echo $row['PatientGender'];?></td>
 <td><?php echo $row['CreationDate'];?></td>
-<td><?php echo $row['UpdationDate'];?>
+
 </td>
 <td>
 
