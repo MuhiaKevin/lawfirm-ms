@@ -151,7 +151,7 @@ if (isset($_POST['submit'])) {
 
 													<div class="form-group">
 														<label for="consultancyfees">
-															Consultancy Fees
+															Consultancy Fees in Ksh. Hourly
 														</label>
 														<select name="fees" class="form-control" id="fees" readonly>
 
