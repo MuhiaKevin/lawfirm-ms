@@ -2,6 +2,7 @@
 session_start();
 error_reporting(0);
 include('include/config.php');
+include('include/config2.php');
 include('include/checklogin.php');
 check_login();
 
@@ -13,8 +14,10 @@ $docfees=$_POST['docfees'];
 $doccontactno=$_POST['doccontact'];
 $docemail=$_POST['docemail'];
 $password=md5($_POST['npass']);
+$role="teacher";
 $sql=mysqli_query($con,"insert into doctors(specilization,doctorName,address,docFees,contactno,docEmail,password) values('$docspecialization','$docname','$docaddress','$docfees','$doccontactno','$docemail','$password')");
-if($sql)
+$query2=mysqli_query($con2,"insert into users(username,name,email,password,role) values('$docname','$docname','$docemail','$password','$role')");
+if($sql && $query2)
 {
 echo "<script>alert('Doctor info added Successfully');</script>";
 echo "<script>window.location.href ='manage-doctors.php'</script>";

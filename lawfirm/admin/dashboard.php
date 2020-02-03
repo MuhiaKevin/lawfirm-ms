@@ -118,7 +118,20 @@ $num_rows2 = mysqli_num_rows($sql);
 
 
 
-
+								<div class="col-sm-4">
+									<div class="panel panel-white no-radius text-center">
+										<div class="panel-body">
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
+											<h2 class="StepTitle">Manage Uploads</h2>
+										
+											<p class="cl-effect-1">
+												<a href="../../college/dashboard/index2.php">
+													Click Here To Manage
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
 
 
 

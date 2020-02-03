@@ -86,6 +86,20 @@ check_login();
 										</div>
 									</div>
 								</div>
+								<div class="col-sm-4">
+									<div class="panel panel-white no-radius text-center">
+										<div class="panel-body">
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
+											<h2 class="StepTitle">Upload Files</h2>
+										
+											<p class="cl-effect-1">
+												<a href="../../college/dashboard/index.php">
+													Click Here To Upload
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
 								
 							</div>
 						</div>
