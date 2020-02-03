@@ -15,7 +15,7 @@ include('connection.php');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard - <?php echo $_SESSION['username']; ?></title>
+    <title>Document Management</title>
     
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/tinymce/tinymce.min.js"></script>

@@ -8,7 +8,7 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index2.php" class="active"><i class="fa fa-fw fa-dashboard"></i> View All Documents</a>
+                        <a href="index.php" class="active"><i class="fa fa-fw fa-dashboard"></i>All Documents</a>
                     </li>
                 <?php 
                 $count=0;
@@ -37,8 +37,8 @@
                             
                     <?php } else { ?>
 
-                    <!-- <li>
-                         <a href="javascript:;" data-toggle="collapse" data-target="#user"><i class="fa fa-fw fa-users"></i> My Documents <i class="fa fa-fw fa-caret-down"></i></a>
+                    <li>
+                         <a href="javascript:;" data-toggle="collapse" data-target="#user"><i class="fa fa-fw fa-users"></i> My Documentss <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="user" class="collapse">
                             <li>
                                 <a href="./notes.php">View My Documents</a>
@@ -48,7 +48,7 @@
                             </li>
                             
                         </ul>
-                    </li> -->
+                    </li>
                    
 
 <?php } ?>

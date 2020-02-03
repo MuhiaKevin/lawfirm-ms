@@ -93,7 +93,7 @@ while ($row = mysqli_fetch_array($run_query)) {
         $run_del_query = mysqli_query($conn, $del_query) or die (mysqli_error($conn));
         if (mysqli_affected_rows($conn) > 0) {
             echo "<script>alert('note deleted successfully');
-            window.location.href='index.php';</script>";
+            window.location.href='index2.php';</script>";
         }
         else {
          echo "<script>alert('error occured.try again!');</script>";   

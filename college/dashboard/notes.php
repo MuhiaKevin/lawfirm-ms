@@ -11,7 +11,7 @@ header("location: index.php");
 ?>
     <div id="wrapper">
 <?php ?>
-       <?php include 'includes/adminnav.php';?>
+       <?php include 'includes/usernav.php';?>
         <div id="page-wrapper">
 
             <div class="container-fluid">
@@ -21,9 +21,9 @@ header("location: index.php");
                     <div class="col-lg-12">
                         <h1 class="page-header">
                         <div class="col-xs-4">
-            <a href="uploadnote.php" class="btn btn-primary">Add New Note</a>
+            <a href="uploadnote.php" class="btn btn-primary">Add New Document</a>
             </div>
-                         MY NOTES
+                         MY Documents
                         </h1>
                          
 <div class="row">

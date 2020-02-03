@@ -19,7 +19,7 @@ $sql=mysqli_query($con,"insert into doctors(specilization,doctorName,address,doc
 $query2=mysqli_query($con2,"insert into users(username,name,email,password,role) values('$docname','$docname','$docemail','$password','$role')");
 if($sql && $query2)
 {
-echo "<script>alert('Doctor info added Successfully');</script>";
+echo "<script>alert('Lawyer info added Successfully');</script>";
 echo "<script>window.location.href ='manage-doctors.php'</script>";
 
 }

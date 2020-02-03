@@ -11,7 +11,7 @@ header("location: index.php");
 
 <div id="wrapper">
 
-       <?php include 'includes/adminnav.php';?>
+       <?php include 'includes/usernav.php';?>
         <div id="page-wrapper">
 
             <div class="container-fluid">
@@ -20,7 +20,7 @@ header("location: index.php");
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            UPLOAD NOTE
+                            Upload Document
                         </h1>
 
 <?php
@@ -97,13 +97,13 @@ echo "<script>alert('file size is not proper');</script>";
 
 
 	<div class="form-group">
-		<label for="post_title">Note Title</label>
+		<label for="post_title">Document Title</label>
 		<input type="text" name="title" class="form-control" placeholder="Eg: Php Tutorial File"  value = "<?php if(isset($_POST['upload'])) {
             echo $file_title; } ?>" required="">
 	</div>
 
 	<div class="form-group">
-		<label for="post_tags">Short Note Description</label>
+		<label for="post_tags">Short Document Description</label>
 		<input type="text" name="description" class="form-control" placeholder="Eg: Php Tutorial File includes basic php programming ...." value="<?php if(isset($_POST['upload'])) {
             echo $file_description;  } ?>" required="" ">
 	</div>
@@ -113,7 +113,7 @@ echo "<script>alert('file size is not proper');</script>";
 		<input type="file" name="file"> 
      </div>
 
-<button type="submit" name="upload" class="btn btn-primary" value="Upload Note">Upload Note</button>
+<button type="submit" name="upload" class="btn btn-primary" value="Upload Note">Upload Document</button>
 <br>
 <br>
 </form>
