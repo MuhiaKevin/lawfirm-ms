@@ -41,7 +41,7 @@ function getCalender($year = '', $month = '')
 		<div id="event_list" class="none"></div>
 		<div id="event_add" class="none">
 			<p>Add Event on <span id="eventDateView"></span></p>
-			<p><b>Court Event Title: </b><input type="text" id="eventTitle" value="" /></p>
+			<p><b>Court Event Title: </b><input type="text" id="eventTitle" placeholder="Name of Court: , Judge Name: , Case Number :  " style="width: 500px;" value="" /></p>
 			<input type="hidden" id="eventDate" value="" />
 			<input type="button" id="addEventBtn" value="Add" />
 		</div>

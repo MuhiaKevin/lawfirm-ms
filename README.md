@@ -4,7 +4,7 @@ Law firm Management system
 ### FEATURES REQUESTED
 
 
-* [ ] Payement module / have a non refundable deposit
+* [x] Payement module / have a non refundable deposit
 * [x]  place to check court dates 
 * [ ] allow user to send documents to each other
 
@@ -29,7 +29,7 @@ Law firm Management system
 
 * [x] login or signup
 * [x] create appointments
-* [ ] make payment to lawyer
+* [x] make payment to lawyer
 * [x] allow client to check court date
 * [ ] Send receive files from lawyer
 
@@ -41,4 +41,5 @@ Login Details for lawyer: test@demo.com/Test@123
 	
 ### ISSUES
 -------
-- change view-medical-history client section
+* [x] change lawyer specialization
+* [x] appointment history admin section
