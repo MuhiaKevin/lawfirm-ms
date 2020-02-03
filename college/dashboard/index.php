@@ -15,7 +15,9 @@
                         <h1 class="page-header">
                            
                         </h1>
-<?php if($_SESSION['role'] == 'admin') {
+<?php
+$count=0; 
+if($count==1) {
 ?>
 
 <div class="row">
