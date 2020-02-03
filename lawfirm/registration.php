@@ -1,5 +1,6 @@
 <?php
 include_once('include/config.php');
+include_once('include/config2.php');
 if(isset($_POST['submit']))
 {
 $fname=$_POST['full_name'];
@@ -8,8 +9,10 @@ $city=$_POST['city'];
 $gender=$_POST['gender'];
 $email=$_POST['email'];
 $password=md5($_POST['password']);
+$role="student";
 $query=mysqli_query($con,"insert into users(fullname,address,city,gender,email,password) values('$fname','$address','$city','$gender','$email','$password')");
-if($query)
+$query2=mysqli_query($con2,"insert into users(username,name,email,password,role) values('$fname','$fname','$email','$password','$role')");
+if($query && $query2)
 {
 	echo "<script>alert('Successfully Registered. You can login now');</script>";
 	//header('location:user-login.php');

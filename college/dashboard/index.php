@@ -13,14 +13,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Welcome 
-                            <small><?php echo $_SESSION['name']; ?></small>
+                           
                         </h1>
 <?php if($_SESSION['role'] == 'admin') {
 ?>
-<h3 class="page-header">
-                            <center> <marquee width = 70% ><font color="green" > Notes uploaded by various users</font></marquee></center>
-                        </h3>
+
 <div class="row">
 <div class="col-lg-12">
         <div class="table-responsive">
@@ -122,9 +119,7 @@ else {
     ?>
 
 
- <h3 class="page-header">
-                            <center> <marquee width = 70% ><font color="green" ><?php echo $_SESSION['course']; ?> Engineering </font><font color="brown"> notes uploaded by various users</font></marquee></center>
-                        </h3>
+ 
 
                     </div>
                 </div>
