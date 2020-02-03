@@ -41,11 +41,5 @@ Login Details for lawyer: test@demo.com/Test@123
 	
 ### ISSUES
 -------
-* [x] change lawyer specialization
-* [x] appointment history admin section
-* [x] cannot add lawyer
-* [x] alert message when lawyer is added
 * [ ] lawyer sees other lawyer's file
-* [ ] admin edit doctor details
 * [ ] lawyer upload document
-* [ ] change document dashboard to that of main 

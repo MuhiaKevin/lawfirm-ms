@@ -36,15 +36,9 @@ Users
 
 	
 ISSUES
-<<<<<<< HEAD
----------
-1. Hide url / modified files
- 
-=======
 -------
 1. View Med history client section change
 
->>>>>>> 77a5a562abf50dc23fe299f756f340acb08b7bd8
 ---------------------	
 System Functionality
 --------------------
