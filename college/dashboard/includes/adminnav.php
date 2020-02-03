@@ -8,9 +8,11 @@
 <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index.php" class="active"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="index2.php" class="active"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
-                <?php if($_SESSION['role'] == 'admin') {
+                <?php 
+                $count=0;
+                if($count==1) {
                     ?>
                    <li>
                          <a href="javascript:;" data-toggle="collapse" data-target="#user"><i class="fa fa-fw fa-users"></i> Users <i class="fa fa-fw fa-caret-down"></i></a>
