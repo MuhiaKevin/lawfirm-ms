@@ -27,7 +27,7 @@ header('location:manage-patient.php');
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Doctor | Add Patient</title>
+		<title>Lawyer | Add Client</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -58,14 +58,14 @@ header('location:manage-patient.php');
 <section id="page-title">
 <div class="row">
 <div class="col-sm-8">
-<h1 class="mainTitle">Patient | Add Patient</h1>
+<h1 class="mainTitle">Client | Add Client</h1>
 </div>
 <ol class="breadcrumb">
 <li>
-<span>Patient</span>
+<span>Client</span>
 </li>
 <li class="active">
-<span>Add Patient</span>
+<span>Add Client</span>
 </li>
 </ol>
 </div>
@@ -77,7 +77,7 @@ header('location:manage-patient.php');
 <div class="col-lg-8 col-md-12">
 <div class="panel panel-white">
 <div class="panel-heading">
-<h5 class="panel-title">Add Patient</h5>
+<h5 class="panel-title">Add Client</h5>
 </div>
 <div class="panel-body">
 <form role="form" name="" method="post">
@@ -90,19 +90,19 @@ while ($row=mysqli_fetch_array($ret)) {
 ?>
 <div class="form-group">
 <label for="doctorname">
-Patient Name
+Client Name
 </label>
 <input type="text" name="patname" class="form-control"  value="<?php  echo $row['PatientName'];?>" required="true">
 </div>
 <div class="form-group">
 <label for="fess">
- Patient Contact no
+ Client Contact no
 </label>
 <input type="text" name="patcontact" class="form-control"  value="<?php  echo $row['PatientContno'];?>" required="true" maxlength="10" pattern="[0-9]+">
 </div>
 <div class="form-group">
 <label for="fess">
-Patient Email
+Client Email
 </label>
 <input type="email" id="patemail" name="patemail" class="form-control"  value="<?php  echo $row['PatientEmail'];?>" readonly='true'>
 <span id="email-availability-status"></span>
@@ -121,13 +121,13 @@ Patient Email
             </div>
 <div class="form-group">
 <label for="address">
-Patient Address
+Client Address
 </label>
 <textarea name="pataddress" class="form-control" required="true"><?php  echo $row['PatientAdd'];?></textarea>
 </div>
 <div class="form-group">
 <label for="fess">
- Patient Age
+ Client Age
 </label>
 <input type="text" name="patage" class="form-control"  value="<?php  echo $row['PatientAge'];?>" required="true">
 </div>
@@ -135,7 +135,7 @@ Patient Address
 <label for="fess">
  Medical History
 </label>
-<textarea type="text" name="medhis" class="form-control"  placeholder="Enter Patient Medical History(if any)" required="true"><?php  echo $row['PatientMedhis'];?></textarea>
+<textarea type="text" name="medhis" class="form-control"  placeholder="Enter Client Medical History(if any)" required="true"><?php  echo $row['PatientMedhis'];?></textarea>
 </div>	
 <div class="form-group">
 <label for="fess">

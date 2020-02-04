@@ -47,7 +47,7 @@
               </div>
               <ol class="breadcrumb">
                 <li>
-                  <span>Client</span>
+                  <span>Lawyer</span>
                 </li>
                 <li class="active">
                   <span>Dashboard</span>
