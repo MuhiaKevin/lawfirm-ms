@@ -48,9 +48,8 @@ if (isset($_SESSION['role']) && $_SESSION['role'] == 'admin') {
                                         <tbody>
 
                                             <?php
-                                            $currentuser = $_SESSION['username'];
 
-                                            $query = "SELECT * FROM uploads WHERE file_uploader= '$currentuser' ORDER BY file_uploaded_on DESC";
+                                            $query = "SELECT * FROM uploads WHERE  status = 'approved' ORDER BY file_uploaded_on DESC";
                                             $run_query = mysqli_query($conn, $query) or die(mysqli_error($conn));
                                             if (mysqli_num_rows($run_query) > 0) {
                                                 while ($row = mysqli_fetch_array($run_query)) {
